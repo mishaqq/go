@@ -20,8 +20,6 @@ def enter_data():
 
 
 
-    
-   
     if int(board_size) == 9 and int(handicap) > 0:
         tkinter.messagebox.showwarning(title="Handicap to big for 9x9!", message="Choose other handicap.")
     else:

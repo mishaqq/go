@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 import os
 import sys
 import settings_form
@@ -139,8 +139,8 @@ MARGIN = 2
 notation = '     a b c d e f g h j k l m n o p q r s t'
 
 # representation of stones
-if _board_style == '*': pieces = '*⬤◯  bw +'
-else: pieces = '·⬤◯  bw +'
+if _board_style == '*': pieces = '*\u2B24\u25EF  bw +'
+else: pieces = '·\u2B24\u25EF  bw +'
 
 # ●○ ⚪⚫ ⚪🟩  🔵〇⬤○◯
 
