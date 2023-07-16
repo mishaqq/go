@@ -47,4 +47,6 @@ Choose all settings every time you start a program
    py go_game.py
    ```
 - Second option is to run ```go_game.exe``` file
+  > But proper emojis do not renders right. That's why in exe file black plays - ```#``` and white ```o```
+  > . For better experience with console-based version use the option number one
 
